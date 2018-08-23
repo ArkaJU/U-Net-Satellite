@@ -19,6 +19,4 @@ The aim of this project is road detection from satellite images using a variant 
 U-net is a encoder-decoder type network architecture for image segmentation. The name of the architecture comes from its unique shape, where the feature maps from convolution part in downsampling step are fed to the up-convolution part in up-sampling step. 
 
 
-
-
-![alt text](U-Net-Satellite/images/u-net-architecture.png)
+![](images/u-net-architecture.png)
