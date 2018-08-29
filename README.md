@@ -5,7 +5,7 @@ The aim of this project is road detection from satellite images using a variant 
  
  ## Dependencies
  
- - Keras
+ - Keras with TensorFlow backend
  - Numpy
  - Matplotlib
  - OS
@@ -16,8 +16,8 @@ The aim of this project is road detection from satellite images using a variant 
  
  ### Model
 
-U-net is a encoder-decoder type network architecture for image segmentation. The name of the architecture comes from its unique shape, where the feature maps from convolution part in downsampling step are fed to the up-convolution part in up-sampling step. 
-The details of the architecture can be clearly seen in the notebook as the output of the "model.summary()" cell.
+U-net is an encoder-decoder type network architecture for image segmentation. The name of the architecture comes from its unique shape, where the feature maps from convolution part in downsampling step are fed to the up-convolution part in up-sampling step. 
+This model is a slight modification of original U-Net architecture. The details of the architecture can be clearly seen in the notebook as the output of the "model.summary()" cell.
 
 ![](images/u-net-architecture.png)
 
