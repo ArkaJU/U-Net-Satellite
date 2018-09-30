@@ -22,6 +22,13 @@ This model is a slight modification of original U-Net architecture. The details 
 ![](images/u-net-architecture.png)
 
 
+
+
+
+The tensorboard graph is shown below:
+![](images/U-Net-Graph.png)
+
+
 ### Advantages of U-Net
 
 1. This architecture is really versatile and can be used for any reasonable image masking task.
