@@ -25,7 +25,7 @@ This model is a slight modification of original U-Net architecture. The details 
 
 
 
-The tensorboard graph is shown below:
+The TensorBoard graph is shown below:
 ![](images/U-Net-Graph.png)
 
 
