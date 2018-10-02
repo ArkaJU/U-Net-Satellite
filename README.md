@@ -29,13 +29,6 @@ The TensorBoard graph is shown below:
 ![](images/U-Net-Graph.png)
 
 
-### Advantages of U-Net
-
-1. This architecture is really versatile and can be used for any reasonable image masking task.
-2. It does not have any fully connected layers, therefore has no restriction on the size of the input image. 
-   This feature allows us to extract features from images of different sizes.
-3. High accuracy given proper training, adequate dataset and training time.
-
 
 ### Data
 
