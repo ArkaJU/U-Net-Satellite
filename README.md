@@ -3,15 +3,6 @@
 The aim of this project is road detection from satellite images using a variant of deep Convolutional Neural Networks which is known as U-Net. The output of the model is a segmentation mask which differentiates roads from other terrains.
  
  
- ## Dependencies
- 
- - Keras with TensorFlow backend
- - Numpy
- - Matplotlib
- - OS
- - OpenCV
- - H5py
- 
  ## Overview
  
  ### Model
@@ -37,7 +28,7 @@ The inputs are resized to 256x256 from the original size of 600x600. The ground 
 
 ### Training
 
-The model was trained for 30 epochs and took about 3 hours on colab GPU. After 30 epochs, the model training accuracy was about 97% and validation accuracy was about 95.25%.
+The model was trained for 30 epochs and took about 3 hours on colab GPU. After 30 epochs, the training Dice score and Jaccard index were 0.8918 and  0.9754. Corresponding validation metrics were 0.7533 and 0.9527.
 The training vs validation loss is shown below :
 
 
@@ -60,4 +51,5 @@ The following images show the comparison of the original satellite image, ground
      - [Vehicle Detection](https://chatbotslife.com/small-u-net-for-vehicle-detection-9eec216f9fd6)
      - [Medical Image Segmentation](https://towardsdatascience.com/medical-image-segmentation-part-1-unet-convolutional-networks-with-interactive-code-70f0f17f46c6)
 - Original Dataset: https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/maps.tar.gz
+- Datasets used: https://drive.google.com/drive/folders/1_wBiTCBZ26F_NNpJshw5kwEHyaSeyzFC?usp=sharing
 
